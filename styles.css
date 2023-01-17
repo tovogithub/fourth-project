@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #0abde3;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 389px;
+  width: 252px;
+}
+
+#display {
+  background-color: #808e9b;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  padding: 20px;
+  min-height: 50px;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  width: 100vh;
+  height: 75px;
+}
+#decimal {
+  border: none;
+  background-color: #808e9b;
+}
+button {
+  border-radius: 30%;
+  margin: 5px;
+  height: 51px;
+  width: 49px;
+  font-size: 24px;
+  cursor: default;
+}
+
+button.turquoise {
+  border: none;
+  background-color: #34e7e4;
+  color: #fff;
+}
+
+button.type {
+  border: none;
+  background-color: #808e9b;
+  color: #fff;
+}
+
+button.clearing {
+  border: none;
+  background-color: #ff5252;
+  color: #fff;
+}
+
+button.horizontal {
+  border-radius: 65px;
+  width: 100px;
+}
+
+.numeral {
+  width: 75%;
+}
+
+.symbol {
+  width: 15%;
+}
+
+button.control {
+  margin-right: 40%;
+}
+
+button:active {
+  transform: scale(0.89);
+}
